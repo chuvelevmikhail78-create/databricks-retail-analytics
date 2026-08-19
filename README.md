@@ -90,5 +90,19 @@ notebooks/
   03_gold_analytics.py
 README.md
 ```
+## Example Outputs
+
+### Gold Fact Sales
+
+The Gold fact table integrates cleaned sales, product and return data at the order-line level and contains the calculated business metrics used for further analysis.
+
+![Gold Fact Sales](<Screenshot 2026-08-19 164539.png>)
+
+### Monthly Channel Performance
+
+The final Gold aggregation summarizes monthly performance by sales channel and combines actual KPIs with the corresponding business targets.
+
+![Monthly Channel Performance](<monthly performance.png>)
+
 
 The notebooks are written for a Databricks workspace using the `workspace` catalog.
